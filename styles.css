@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(242, 242, 242);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+header {
+    display: flex;
+    flex-direction:row; 
+    align-items: center;
+    background-color: #dacfd1; 
+    padding: 30px 20px; 
+}
+header img {
+    height: 200px; 
+    width: auto; 
+    background-color: #ffffff; 
+    mix-blend-mode: multiply; 
+ 
+}
+
+header h2 {
+    margin-right: 100px; 
+}
+
+form {
+    width: 100%; 
+    max-width: 200px; 
+    display:flexbox;
+    flex-direction: column; 
+    gap: 10px; 
+    margin-right: 90px;
+}
+
+
+main{
+    background-color: rgb(255, 255, 255);
+}
+progress{
+    gap: 20px;
+}
+
+footer{
+    background-color: white;
+}
