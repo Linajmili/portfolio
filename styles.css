@@ -64,11 +64,14 @@ form {
 main{
     background-color: rgb(255, 255, 255);
 }
+audio{
+    padding-left: 30%;
+}
 aside{
-    margin-right: 100%;
+    margin-right: 60%;
+    padding-left: 20%;
 }
 video{
-    padding: 30%
     width: 400; height: 200;
 }
 progress {
