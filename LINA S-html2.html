@@ -12,35 +12,32 @@
 
         <header >
             <a href="index.html">
-                <img src="c:\Users\DELL\Downloads\d894ce9fb63d1807be4ad4d33fab701a.jpg" alt="My Logo">
+                <img src="https://i.pinimg.com/564x/d8/94/ce/d894ce9fb63d1807be4ad4d33fab701a.jpg" alt="My Logo">
             </a>
           <h2 >Welcome</h2> 
-            
-          
-            <form action="action page php" method="post" >
-                
-                    <label> Username </label>
-                    <input type=" text" required placeholder="Sara_MJ">
-            
-                <label for="email"> email</label>
-                <input type="email" id="email" placeholder="Sara_MJ@expl.com">
 
-                <label for="password" > password </label>
-                <input type="Password" id="password" maxlength="12" placeholder="ABcd1234">
+        <form action="action_page.php" method="post">
+            <label> Username </label>
+             <input type=" text" required placeholder="Sara_MJ">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Sara_MJ@example.com">
+
+            <label for="msg">Message</label>
+            <textarea id="msg" placeholder="Write your feedback here!" maxlength="500" rows="4" cols="50"></textarea>
             
-                <input type="submit" >
-                <input type="reset">
-            </form>
-       
-            <div class="header">
-                <ul>
-                    <li>About me </li>
-                    <li>skills </li>
-                    <li>projects </li>
-                  </ul>
-            </div>
-           
-             
+            <input type="submit">
+            <input type="reset">
+        </form>
+
+        <div class="header">
+            <ul>
+                <li><a href="#aboutme" class="button">About Me</a></li>
+                <li><a href="#skills" class="button">Skills</a></li>
+                <li><a href="#projects" class="button">Projects</a></li>
+            </ul>
+        </div>
+                     
         </header>
         <main> 
             <h3> About me </h3>
@@ -57,7 +54,7 @@
                <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" title=" go to linkedin page " > linkedin page </a></li> 
             </ul>
             <section>
-                <h4>Listen to some chill music to enjoy the journey with us : </h4>
+ 
                 <audio controls>
                     <source src="c:\Users\DELL\Music\5 MINUTES OF (No Copyright Music) CHILL LOFI HIP HOP BEAT (Royalty free).mp3" type="audio/mp3">
                 Your browser does not support the audio tag
@@ -66,12 +63,9 @@
            
         </nav>
         <aside>
-            <video controls  width="400px" height="200" autoplay loop muted>
-            <source src="c:\Users\DELL\Downloads\5 Minute Timer Lofi.mp4" type="video/mp4">
-            Your browser does not support the video tag
-        </video>
+            <iframe src="https://www.youtube.com/embed/Cl9b6Ilv_Dg?start=2"  width="500" height="300" frameborder="0";></iframe>
         </aside>
-    
+        
         <article> 
             <h3> Skills </h3>
         <ul>
@@ -85,7 +79,7 @@
             <h3> Languages </h3>
            
             <div class="language">
-                <label for="arabic">Arabic</label>
+                <label for="arabic ">Arabic  </label>
                 <progress id="arabic" value="90" max="100"></progress> 
             </div>
             <div class="language">
