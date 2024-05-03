@@ -27,12 +27,12 @@ header h2 {
 }
 
 textarea {
-    width: 250%; /* Makes the textarea take the full width of its container */
-    padding: 8px; /* Adds some padding inside the textarea */
-    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-    border-radius: 5px; /* Rounds the corners of the textarea */
-    border: 1px solid #ccc; /* Adds a light gray border */
-    resize: vertical; /* Allows the user to resize the textarea vertically */
+    width: 250%; 
+    padding: 8px;
+    box-sizing: border-box; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    resize: vertical; 
 }
 
 form {
@@ -47,8 +47,8 @@ form {
     display: inline-block;
     padding: 5px 10px;
     margin: 5px;
-    background-color: #BDA9AA; /* Light grayish pink, adjust as needed */
-    color: #000; /* Black, adjust as needed */
+    background-color: #BDA9AA; 
+    color: #000; 
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -57,7 +57,7 @@ form {
 }
 
 .header .button:hover {
-    background-color: #9e8f9e; /* Darker shade for hover, adjust as needed */
+    background-color: #9e8f9e; 
     cursor: pointer;
 }
 
@@ -71,30 +71,29 @@ video{
     width: 400; height: 200;
 }
 progress {
-    /* Removes default appearance */
+    
     -webkit-appearance: none;
     appearance: none;
 
-    /* Sets the base background color */
     background-color: #eee;
-    width: 70%; /* Full width */
-    height: 15px; /* Adjust the height */
+    width: 70%; 
+    height: 15px; 
 }
 
 progress::-webkit-progress-bar {
-    background-color: #DACFD1; /* Light gray as background */
+    background-color: #DACFD1; 
 }
 
 progress::-webkit-progress-value {
-    background-color: #BDA9AA; /* Black color */
+    background-color: #BDA9AA;
 }
 
 progress::-moz-progress-bar {
-    background-color: #BDA9AA; /* Black color for Firefox */
+    background-color: #BDA9AA; 
 }
 
 progress::-ms-fill {
-    background-color: #BDA9AA; /* Black color for IE */
+    background-color: #BDA9AA;
 }
 
 
