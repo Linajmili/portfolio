@@ -10,6 +10,7 @@ header {
     display: flex;
     flex-direction:row; 
     align-items: center;
+    margin-down: 100;
     background-color: #dacfd1; 
     padding: 30px 20px; 
 }
@@ -25,22 +26,77 @@ header h2 {
     margin-right: 100px; 
 }
 
+textarea {
+    width: 250%; /* Makes the textarea take the full width of its container */
+    padding: 8px; /* Adds some padding inside the textarea */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    border-radius: 5px; /* Rounds the corners of the textarea */
+    border: 1px solid #ccc; /* Adds a light gray border */
+    resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
 form {
-    width: 100%; 
-    max-width: 200px; 
+    width: 80%; 
+    max-width: 120px; 
     display:flexbox;
     flex-direction: column; 
     gap: 10px; 
-    margin-right: 90px;
+    margin-right: 180px;
+}
+.header .button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #BDA9AA; /* Light grayish pink, adjust as needed */
+    color: #000; /* Black, adjust as needed */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
 }
 
+.header .button:hover {
+    background-color: #9e8f9e; /* Darker shade for hover, adjust as needed */
+    cursor: pointer;
+}
 
 main{
     background-color: rgb(255, 255, 255);
 }
-progress{
-    gap: 20px;
+aside{
+    margin-right: 100%;
 }
+video{
+    width: 400; height: 200;
+}
+progress {
+    /* Removes default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+
+    /* Sets the base background color */
+    background-color: #eee;
+    width: 70%; /* Full width */
+    height: 15px; /* Adjust the height */
+}
+
+progress::-webkit-progress-bar {
+    background-color: #DACFD1; /* Light gray as background */
+}
+
+progress::-webkit-progress-value {
+    background-color: #BDA9AA; /* Black color */
+}
+
+progress::-moz-progress-bar {
+    background-color: #BDA9AA; /* Black color for Firefox */
+}
+
+progress::-ms-fill {
+    background-color: #BDA9AA; /* Black color for IE */
+}
+
 
 footer{
     background-color: white;
